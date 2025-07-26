@@ -79,7 +79,7 @@
         </div>
         
         <div class="mt-8 pt-8 border-t border-green-700 dark:border-green-800 text-center text-green-100 dark:text-green-200">
-            <p>&copy; {{ date('Y') }} Fruit Shop. All rights reserved.</p>
+            <p>&copy; {{ date('Y') }} Pinvegan. All rights reserved.</p>
         </div>
     </div>
 </footer>

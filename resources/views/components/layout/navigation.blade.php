@@ -6,7 +6,7 @@
                 <!-- Logo -->
                 <div class="flex items-center shrink-0">
                     <a href="{{ route('home') }}" class="text-xl font-bold text-white">
-                        Fruit Shop
+                        Pinvegan
                     </a>
                 </div>
 

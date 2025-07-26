@@ -110,9 +110,9 @@
     <div class="px-4 py-16 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div class="flex flex-col items-center md:flex-row">
             <div class="mb-8 md:w-1/2 md:mb-0 md:pr-8">
-                <h2 class="mb-4 text-3xl font-bold text-gray-900 dark:text-white">About Fahad Mart</h2>
+                <h2 class="mb-4 text-3xl font-bold text-gray-900 dark:text-white">About Pinvegan</h2>
                 <p class="mb-6 text-gray-600 dark:text-gray-300">
-                    Founded in 2010, Fahad Mart has grown from a small local fruit stand to a trusted supplier for events, restaurants, and health-conscious individuals across the region.
+                    Founded in 2010, Pinvegan has grown from a small local fruit stand to a trusted supplier for events, restaurants, and health-conscious individuals across the region.
                 </p>
                 <p class="mb-6 text-gray-600 dark:text-gray-300">
                     Our mission is to provide the freshest, highest quality fruits while supporting sustainable farming practices and building lasting relationships with our customers and suppliers.
