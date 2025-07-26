@@ -1,4 +1,4 @@
-# Fruit Shop - Promotion & Quotation Web Application
+# Pinvegan - Promotion & Quotation Web Application
 
 <p align="center">
 <img src="https://img.shields.io/badge/Laravel-12.0-red" alt="Laravel Version">
@@ -6,9 +6,9 @@
 <img src="https://img.shields.io/badge/Tailwind-3.0-teal" alt="Tailwind Version">
 </p>
 
-## About Fruit Shop
+## About Pinvegan
 
-Fruit Shop is a professional web application designed for fruit vendors to showcase their products and allow customers to request quotes. The platform provides a visually appealing interface for browsing fruits, viewing detailed product information, and submitting quote requests.
+Pinvegan is a professional web application designed for fruit vendors to showcase their products and allow customers to request quotes. The platform provides a visually appealing interface for browsing fruits, viewing detailed product information, and submitting quote requests.
 
 ## Features
 
@@ -101,10 +101,10 @@ Fruit Shop is a professional web application designed for fruit vendors to showc
 
 ### Homepage
 
-![Fruit Shop Homepage](https://github.com/Ekaluk52003/laravel_fruitshop/blob/master/screenshots/homepage.png?raw=true)
+![Pinvegan Homepage](https://github.com/Ekaluk52003/laravel_fruitshop/blob/master/screenshots/homepage.png?raw=true)
 
 The homepage features a vibrant yellow hero section with the tagline "Fresh Fruits for Every Occasion" and showcases the clean, professional navigation design with the green header.
 
 ## License
 
-The Fruit Shop application is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+The Pinvegan application is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).

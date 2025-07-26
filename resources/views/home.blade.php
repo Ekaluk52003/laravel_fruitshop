@@ -9,10 +9,12 @@
             <div class="flex flex-col items-center md:flex-row">
                 <div class="mb-8 md:w-1/2 md:mb-0 md:pr-8">
                     <h1 class="mb-4 text-4xl font-bold text-gray-900 md:text-5xl dark:text-white">
-                        Fresh Fruits for Every Occasion
+                        The Best of Thailand, Delivered Worldwide
                     </h1>
                     <p class="mb-6 text-xl text-gray-800 dark:text-gray-200">
-                        We provide high-quality, fresh fruits sourced from local and international farms. Perfect for events, restaurants, and health-conscious individuals.
+                        As a premier export company, we connect the world with a diverse range of authentic Thai products. Our expertise covers everything from exotic fruits and fresh vegetables to aromatic Thai herbs and specialty goods, ensuring quality with every shipment.
+
+
                     </p>
                     <div class="flex flex-wrap gap-4">
                         <a href="{{ route('fruits.index') }}" class="px-6 py-3 font-bold text-white bg-green-800 rounded-lg transition duration-300 hover:bg-green-700">
@@ -110,9 +112,9 @@
     <div class="px-4 py-16 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div class="flex flex-col items-center md:flex-row">
             <div class="mb-8 md:w-1/2 md:mb-0 md:pr-8">
-                <h2 class="mb-4 text-3xl font-bold text-gray-900 dark:text-white">About Fahad Mart</h2>
+                <h2 class="mb-4 text-3xl font-bold text-gray-900 dark:text-white">About Pinvegan</h2>
                 <p class="mb-6 text-gray-600 dark:text-gray-300">
-                    Founded in 2010, Fahad Mart has grown from a small local fruit stand to a trusted supplier for events, restaurants, and health-conscious individuals across the region.
+                    Founded in 2010, Pinvegan has grown from a small local fruit stand to a trusted supplier for events, restaurants, and health-conscious individuals across the region.
                 </p>
                 <p class="mb-6 text-gray-600 dark:text-gray-300">
                     Our mission is to provide the freshest, highest quality fruits while supporting sustainable farming practices and building lasting relationships with our customers and suppliers.
