@@ -9,10 +9,12 @@
             <div class="flex flex-col items-center md:flex-row">
                 <div class="mb-8 md:w-1/2 md:mb-0 md:pr-8">
                     <h1 class="mb-4 text-4xl font-bold text-gray-900 md:text-5xl dark:text-white">
-                        Fresh Fruits for Every Occasion
+                        The Best of Thailand, Delivered Worldwide
                     </h1>
                     <p class="mb-6 text-xl text-gray-800 dark:text-gray-200">
-                        We provide high-quality, fresh fruits sourced from local and international farms. Perfect for events, restaurants, and health-conscious individuals.
+                        As a premier export company, we connect the world with a diverse range of authentic Thai products. Our expertise covers everything from exotic fruits and fresh vegetables to aromatic Thai herbs and specialty goods, ensuring quality with every shipment.
+
+
                     </p>
                     <div class="flex flex-wrap gap-4">
                         <a href="{{ route('fruits.index') }}" class="px-6 py-3 font-bold text-white bg-green-800 rounded-lg transition duration-300 hover:bg-green-700">
