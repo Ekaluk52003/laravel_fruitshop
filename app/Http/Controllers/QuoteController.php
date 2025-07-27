@@ -10,6 +10,8 @@ use App\Notifications\QuoteRequestSubmitted;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Facades\Log;
+use Illuminate\Support\Facades\Mail;
+use Illuminate\Mail\Mailable;
 
 class QuoteController extends Controller
 {
@@ -71,6 +73,28 @@ class QuoteController extends Controller
         
         // Store updated quote items in session
         Session::put('quote_items', $quoteItems);
+
+        // Send email notification
+        try {
+            $fruit = Fruit::find($fruitId);
+            $mailMessage = "A new item has been added to a quote request:\n\n"
+                . "Fruit: " . $fruit->name . "\n"
+                . "Quantity: " . $quantity . "\n\n"
+                . "Current quote items:\n";
+
+            foreach ($quoteItems as $id => $qty) {
+                $itemFruit = Fruit::find($id);
+                $mailMessage .= "- " . $itemFruit->name . " (Quantity: " . $qty . ")\n";
+            }
+            
+            Mail::raw($mailMessage, function ($message) {
+                $message->to('pinveganex@gmail.com')
+                        ->subject('New Quote Item Added');
+            });
+            Log::info('New quote item notification sent.');
+        } catch (\Exception $e) {
+            Log::error('Failed to send new quote item notification: ' . $e->getMessage());
+        }
         
         // Redirect directly to the quote request page
         return redirect()->route('quote.index')->with('success', 'Fruit added to your quote request.');
