@@ -4,7 +4,7 @@
     <div class="flex flex-col sm:flex-row">
         <div class="sm:w-1/4 bg-gray-100 dark:bg-gray-700">
             @if($item->fruit->image)
-                <img src="{{ $item->fruit->image }}" alt="{{ $item->fruit->name }}" class="w-full h-full object-cover">
+                <img src="{{ url('storage/fruits/' . $item->fruit->image) }}" alt="{{ $item->fruit->name }}" class="w-full h-full object-cover">
             @else
                 <div class="w-full h-full min-h-[120px] bg-gray-200 dark:bg-gray-700 flex items-center justify-center">
                     <span class="text-gray-500 dark:text-gray-400">{{ __('frontend.no_image_available') }}</span>
