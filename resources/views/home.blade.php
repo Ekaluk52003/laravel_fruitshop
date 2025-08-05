@@ -8,17 +8,17 @@
          @php $bgImage = asset('images/fruits/hero-fruits.jpg'); @endphp
          style="background-image: url('{{ $bgImage }}')">
         <!-- Yellow vibrant overlay -->
-        <div class="absolute inset-0 bg-yellow-400 bg-opacity-70"></div>
+        <div class="absolute inset-0 bg-yellow-500 bg-opacity-70"></div>
         
         <div class="relative px-4 py-24 mx-auto max-w-7xl sm:px-6 lg:px-8 md:py-32">
-            <div class="max-w-lg mx-auto text-center md:text-left md:max-w-2xl">
+            <div class="mx-auto max-w-lg text-center md:text-left md:max-w-2xl">
                 <h1 class="mb-4 text-4xl font-bold text-green-900 md:text-5xl">
                     {{ __('frontend.hero_title') }}
                 </h1>
                 <p class="mb-8 text-xl text-green-800">
                     {{ __('frontend.hero_description') }}
                 </p>
-                <div class="flex flex-wrap justify-center gap-4 md:justify-start">
+                <div class="flex flex-wrap gap-4 justify-center md:justify-start">
                     <a href="{{ route('fruits.index') }}?locale={{ app()->getLocale() }}" class="px-6 py-3 font-bold text-white bg-green-800 rounded-lg transition duration-300 hover:bg-green-700">
                         {{ __('frontend.browse_fruits') }}
                     </a>
@@ -40,7 +40,7 @@
             <div class="overflow-hidden bg-white rounded-lg shadow-md transition-transform duration-300 dark:bg-gray-800 hover:shadow-lg hover:-translate-y-1">
                 <div class="overflow-hidden aspect-square">
                     @if($fruit->image)
-                    <img src="{{ url('storage/fruits/' . $fruit->image) }}" alt="{{ $fruit->name }}" class="w-full h-full object-contain">
+                    <img src="{{ url('storage/fruits/' . $fruit->image) }}" alt="{{ $fruit->name }}" class="object-contain w-full h-full">
                     @else
                     <div class="flex justify-center items-center w-full h-full bg-gray-200 dark:bg-gray-700">
                         <span class="text-gray-500 dark:text-gray-400">{{ __('frontend.no_image') }}</span>

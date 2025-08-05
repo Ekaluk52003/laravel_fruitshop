@@ -10,7 +10,7 @@
         
         <!-- Breadcrumbs -->
         <x-ui.breadcrumb :items="[
-            ['label' => __('frontend.fruits'), 'url' => route('fruits.index') . '?locale=' . app()->getLocale()],
+            ['label' => __('frontend.products'), 'url' => route('fruits.index') . '?locale=' . app()->getLocale()],
             ['label' => $fruit->translate()->name]
         ]" />
 
