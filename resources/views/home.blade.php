@@ -1,14 +1,11 @@
 <x-layout.app>
-    <x-slot:header>
-        
-    </x-slot>
 <div class="bg-white dark:bg-gray-900">
     <!-- Hero Section with Background Image -->
     <div class="relative bg-cover bg-center min-h-[500px]" 
          @php $bgImage = asset('images/fruits/hero-fruits.jpg'); @endphp
          style="background-image: url('{{ $bgImage }}')">
         <!-- Yellow vibrant overlay -->
-        <div class="absolute inset-0 bg-yellow-500 bg-opacity-70"></div>
+        <div class="absolute inset-0 bg-yellow-200 bg-opacity-50"></div>
         
         <div class="relative px-4 py-24 mx-auto max-w-7xl sm:px-6 lg:px-8 md:py-32">
             <div class="mx-auto max-w-lg text-center md:text-left md:max-w-2xl">

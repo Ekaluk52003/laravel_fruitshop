@@ -305,3 +305,6 @@ class QuoteController extends Controller
             ->with('locale', app()->getLocale());
     }
 }
+
+
+# ADMIN_EMAIL=pinveganex@gmail.com
